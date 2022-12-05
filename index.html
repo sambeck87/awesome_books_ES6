@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Awesome Books</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <p id="navTitle">Awesome Books</p>
+    <div>
+      <ul id="nav-list">
+        <li class="list1"><a class="blue" id="listLink" href="#">List</a></li>
+        <li class="list2"><a class="link_nav" id="addLink" href="#">Add new</a></li>
+        <li class="list3"><a class="link_nav" id="contactLink" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p id="date"></p>
+
+  <div id="list-books" class="">
+    <div class="awesomebooks">
+      <h1>All awesome books</h1>
+      <div id="books"></div>
+    </div>
+  </div>
+
+  <h2 id="subtitle" class="new_book hide">Add a new book</h2>
+  <form id="add-books" action="#" class="form hide">
+    <input required class="input" id="title" type="text" placeholder="Title">
+    <input required class="input" id="author" type="text" placeholder="Author">
+    <p class="show" id="message">*Title and Author are required</p>
+    <button id="add" type="button">Add</button>
+  </form>
+
+  <div id="contact" class="contact hide">
+    <h2 class="new_book">Contact information</h2>
+    <p id="text-contact">Do have ay questions or you just want to say "Hello"?<br>&nbsp You can reach out to us!</p>
+    <ul id="information">
+      <li>Our e-mail: sandro_mipb@hotmail.com</li>
+      <li>Our phone number: +52 233 324 2323</li>
+      <li>Our address: Evergreen Terrace 742, Springfield, EEUU</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p id="copyright">Copyright: This project is MIT licensed.</p>
+  </footer>
+
+</body>
+<script type="module" src="./index.js"></script>
+
+</html>
