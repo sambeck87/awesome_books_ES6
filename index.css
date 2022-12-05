@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 3px 3px black;
+}
+
+#navTitle {
+  margin: 0 0 0 35px;
+  align-self: center;
+}
+
+#nav-list {
+  margin: 4px 20px 4px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.link_nav:link {
+  text-decoration: none;
+}
+
+.link_nav:visited {
+  color: black;
+}
+
+.list1,
+.list2 {
+  border-right: 2px solid black;
+  padding-right: 7px;
+}
+
+.list1,
+.list2,
+.list3 {
+  list-style: none;
+  width: 80px;
+  height: 100%;
+  text-align: right;
+  color: black;
+}
+
+#date {
+  text-align: end;
+  margin: 5px 0 0 0;
+}
+
+#list-books {
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.awesomebooks {
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.input {
+  background-color: white;
+  margin-bottom: 23px;
+  border: 3px solid black;
+  height: 30px;
+  padding: 0 5px 0 5px;
+}
+
+#add {
+  width: 60px;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  height: 30px;
+  padding: 0 5px 0 5px;
+  box-shadow: 3px 3px black;
+  align-self: flex-end;
+}
+
+#add:active {
+  border: none;
+}
+
+#message {
+  color: red;
+  text-align: center;
+}
+
+#books {
+  border: solid 2px black;
+}
+
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 15px 5px 10px;
+}
+
+.book p {
+  margin: 4px 0 4px 0;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid black;
+  height: 30px;
+  padding: 0 5px 0 5px;
+  box-shadow: 3px 3px black;
+  font-size: 20px;
+}
+
+.button:active {
+  border: none;
+}
+
+.new_book {
+  text-align: center;
+  margin: 40px 0 60px 0;
+  font-size: 35px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+
+#information {
+  margin: 4px 50px 0 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 98%;
+  background-color: white;
+}
+
+#copyright {
+  width: 98%;
+  height: 35px;
+  border: solid 3px black;
+  font-size: 20px;
+  padding-left: 25px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.gray {
+  background-color: rgb(209, 208, 208);
+}
+
+.white {
+  background-color: white;
+}
+
+.blue {
+  color: rgb(0, 70, 248);
+}
+
+.blue:link {
+  text-decoration: none;
+}
+
+.show {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
